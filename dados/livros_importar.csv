@@ -1,0 +1,8 @@
+id,titulo,autor,preco,categoria,publicado_em,estoque
+8,Vidas Secas,Graciliano Ramos,39.90,Romance,1938-01-01,35
+11,Capitães da Areia,Jorge Amado,52.90,Romance,1937-01-01,30
+17,Grande Sertão: Veredas,João Guimarães Rosa,94.90,Romance,1956-01-01,8
+,O Alienista,Machado de Assis,24.90,Contos,1882-01-01,22
+,Mar Morto,Jorge Amado,56.90,Romance,1936-01-01,9
+,A Moreninha,Joaquim Manuel de Macedo,26.90,Romance,1844-01-01,14
+,Memórias de um Sargento de Milícias,Manuel Antônio de Almeida,31.90,Romance,1854-01-01,6
