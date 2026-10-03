@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="pt-br"><head><meta charset="utf-8"><title>{{ titulo }}</title></head>
+<body>
+<h1>{{ titulo }}</h1>
+<ul>
+{% for livro in livros %}<li>{{ livro.titulo }} — {{ livro.categoria.nome }} — R$ {{ livro.preco }}</li>{% endfor %}
+</ul>
+</body></html>

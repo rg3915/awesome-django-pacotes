@@ -1,0 +1,38 @@
+{% load i18n %}<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block head_title %}{% endblock head_title %} · Livraria Awesome</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; background:#0f1115;
+           color:#e6e6e6; font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:420px; background:#181b22; border:1px solid #2a2f3a; border-radius:14px; padding:36px 40px; }
+    .marca { font-weight:700; color:#c084fc; letter-spacing:.02em; margin-bottom:8px; }
+    h1 { font-size:26px; margin:0 0 12px; }
+    a { color:#c084fc; }
+    form p, form div { margin:10px 0; }
+    label { display:block; font-size:14px; color:#aab; margin-bottom:4px; }
+    input[type=email], input[type=password], input[type=text] { width:100%; box-sizing:border-box; padding:10px 12px;
+           border-radius:8px; border:1px solid #333a48; background:#0f1115; color:#eee; font-size:15px; }
+    button { width:100%; padding:11px; border:0; border-radius:8px; background:#9333ea; color:#fff; font-size:15px;
+           font-weight:600; cursor:pointer; margin-top:8px; }
+    ul.socialaccount_providers, .socialaccount_providers { list-style:none; padding:0; }
+    .msgs { background:#1f2a1f; border:1px solid #2f5f2f; border-radius:8px; padding:8px 12px; font-size:14px; }
+    .msgs ul { margin:0; padding-left:18px; }
+    hr { border:0; border-top:1px solid #2a2f3a; margin:20px 0; }
+  </style>
+  {% block extra_head %}{% endblock extra_head %}
+</head>
+<body>
+{% block body %}
+<main>
+  <div class="marca">📚 Livraria Awesome</div>
+  {% if messages %}<div class="msgs"><ul>{% for message in messages %}<li>{{ message }}</li>{% endfor %}</ul></div>{% endif %}
+  {% block content %}{% endblock content %}
+</main>
+{% endblock body %}
+{% block extra_body %}{% endblock extra_body %}
+</body>
+</html>
