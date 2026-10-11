@@ -3,6 +3,16 @@
 Loja de livros simples (app `loja`: `Categoria` e `Livro`) com 30 livros brasileiros,
 usada para gravar dois vídeos sobre pacotes do [awesomedjango.org](https://awesomedjango.org).
 
+## Vídeos
+
+| Parte | Vídeo completo | Short | Estreia |
+|---|---|---|---|
+| 1. Os 5 que estão em quase todo projeto | [youtu.be/DgAovvO3BkA](https://youtu.be/DgAovvO3BkA) | [shorts/ZV-wHV1W9E8](https://youtube.com/shorts/ZV-wHV1W9E8) | 17/10/2026, 09:00 |
+| 2. 5 pacotes que parecem mágica | [youtu.be/Qw3HjPzrcm8](https://youtu.be/Qw3HjPzrcm8) | [shorts/PJY4A8yyA7c](https://youtube.com/shorts/PJY4A8yyA7c) | 24/10/2026, 10:00 |
+
+Tutorial com o passo a passo: [Dicas de Django — 10 pacotes do Awesome Django num projeto real](https://www.dicas-de-django.com.br/126-awesome-django-pacotes)
+· Canal: [@RegisdoPython](https://www.youtube.com/@RegisdoPython)
+
 - **Django 6.1.1** + Python 3.12 — todos os pacotes funcionaram no Django 6.1, não foi preciso cair para o 5.2 LTS.
 - Banco: SQLite. Versões exatas no `uv.lock`.
 
