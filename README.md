@@ -4,7 +4,7 @@ Loja de livros simples (app `loja`: `Categoria` e `Livro`) com 30 livros brasile
 usada para gravar dois vídeos sobre pacotes do [awesomedjango.org](https://awesomedjango.org).
 
 - **Django 6.1.1** + Python 3.12 — todos os pacotes funcionaram no Django 6.1, não foi preciso cair para o 5.2 LTS.
-- Banco: SQLite. Versões exatas em `../captura/versoes.txt` (e no `uv.lock`).
+- Banco: SQLite. Versões exatas no `uv.lock`.
 
 | Vídeo | Pacote | Onde está |
 |---|---|---|
@@ -69,8 +69,8 @@ curl -I -H "Accept-Encoding: br" http://127.0.0.1:8010/static/admin/css/base.<ha
 
 ## Capturas
 
-Os scripts em `scripts/` (Playwright + Chromium, 1600×1000, deviceScaleFactor 2) geram os PNGs em
-`../captura/`, com o servidor já rodando na porta 8010:
+Os scripts em `scripts/` (Playwright + Chromium, 1600×1000, deviceScaleFactor 2) geram os PNGs na pasta
+`captura/` ao lado do projeto, com o servidor já rodando na porta 8010:
 
 ```bash
 uv run python scripts/captura_v1.py                  # API filtrada (DRF)
